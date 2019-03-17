@@ -1,0 +1,234 @@
+[
+	{
+		"id": 1,
+		"name": "Artichaut",
+		"description": "Un artichaut vert",
+		"averageWeight": 300,
+		"price": 1.46,
+		"unit": "piece"
+	},
+	{
+		"id": 2,
+		"name": "Carotte",
+		"description": "Toujours disponible et trés bon marché, la carotte est aujourd''hui le deuxième lègume le plus consommé en France, juste derriere la tomate. Elle renferme de trés nombreux minéraux et vitamines. D''aprés l''adage, elle rendrait meme aimable...",
+		"averageWeight": 125,
+		"price": 1.80,
+		"unit": "poids"
+	},
+	{
+		"id": 3,
+		"name": "Céleri branche",
+		"description": "Tige verte !",
+		"averageWeight": 30,
+		"price": 1.10,
+		"unit": "poids"
+	},
+	{
+		"id": 4,
+		"name": "Céleri rave",
+		"description": "Connu depuis l''Antiquité, cultivé dés le 16e siécle, le céleri-rave a fait progressivement son entrée dans les cuisines. Ce légume rustique s''est développé et a imposé sa présence sur les étals gréce é sa chair savoureuse, croquante quand elle est crue, fondante aprés cuisson. Ce beau céleri tout en rondeur est trés concentré en vitamines et minéraux essentiels, tout en étant trés peu énergétique. Invitez-le réguliérement dans vos assiettes pour savourer tous les bienfaits de sa chair délicate.",
+		"averageWeight": 1000,
+		"price": 1.78,
+		"unit": "poids"
+	},
+	{
+		"id": 5,
+		"name": "Chou-fleur",
+		"description": "Sur les étals francais, on trouve du chou-fleur toute l''annce. ca tombe bien : cru ou cuit, il se prete à de multiples recettes et présente de sérieuses qualités nutritionnelles. Vous pouvez donc en manger sans compter",
+		"averageWeight": 1500,
+		"price": 1.74,
+		"unit": "poids"
+	},
+	{
+		"id": 6,
+		"name": "Chou rouge",
+		"description": "Le méme que le vert mais en rouge",
+		"averageWeight": 1500,
+		"price": 1.74,
+		"unit": "poids"
+	},
+	{
+		"id": 7,
+		"name": "Chou vert",
+		"description": "Légume universel, le chou est une des composantes essentielles de l''alimentation traditionnelle. é chaque région de France sa spécialité é base de chou. Longtemps associé é des plats roboratifs, le chou retrouve aujourd''hui toute sa place dans des préparations légéres et raffinées.",
+		"averageWeight": 2000,
+		"price": 1.74,
+		"unit": "poids"
+	},
+	{
+		"id": 8,
+		"name": "échalote",
+		"description": "Légume aromatique typiquement franéais, l''échalote appartient é la famille des oignons. Sa culture est principalement située dans l''ouest de la France et en Bretagne. Présente sur les étals toute l''année, l''échalote dynamise toutes vos recettes au quotidien, tout en vous prodiguant ses bienfaits.",
+		"averageWeight": 25,
+		"price": 1.80,
+		"unit": "poids"
+	},
+	{
+		"id": 9,
+		"name": "Laitue",
+		"description": "Qui ne connait pas la laitue ? Cinquiéme légume le plus consommé des franéais, elle est aussi l''un des plus populaires dans le monde. La Lactuca sativa regroupe plusieurs centaines de variétés ; guére étonnant puisqu''elle est cultivée depuis la plus lointaine Antiquité. Croquante ou fondante, charnue ou légére, elle se déguste surtout en salade, mais se préte é bon nombre de préparations cuites.",
+		"averageWeight": 300,
+		"price": 0.90,
+		"unit": "piece"
+	},
+	{
+		"id": 10,
+		"name": "Oignon",
+		"description": "On ne présente plus l''oignon ! Cru, il dégage un aréme puissant et des saveurs marquées que la cuisson adoucit. S''invitant dans un nombre impressionnant de préparations, il se préte avec autant de réussite aux plats les plus rustiques (flamiche, gratinéeé) qu''aux mets les plus sophistiqués (foie gras poélé, magret de canardé). Ce bulbe, organe de réserves nutritives pour la plante et sa fleur, présente aussi des qualités nutritionnelles qui vous invitent é conjuguer bien-étre et plaisir de la table.",
+		"averageWeight": 100,
+		"price": 1.50,
+		"unit": "poids"
+	},
+	{
+		"id": 11,
+		"name": "Poireau",
+		"description": "Le poireau se retrouve toute l''année sur les étals des marchés. Légume résistant, il entre dans la composition de nombreux plats gréce é son parfum si particulier et à sa saveur aillée. Originaire du Moyen-Orient, il a traversé les siécles pour étre aujourd''hui le neuviéme légume le plus consommé par les Franéais.",
+		"averageWeight": 150,
+		"price": 1.00,
+		"unit": "poids"
+	},
+	{
+		"id": 12,
+		"name": "Pomme de terre",
+		"description": "Consommée depuis le XIXe siécle, la pomme de terre est rapidement devenue le légume préféré des Franéais. Des centaines de variétés sont présentes sur les étals, chacune réservée é un usage spécifique. La pomme de terre se préte é tous types de cuissons et de recettes, qui facilitent son intégration dans votre alimentation quotidienne. Et ne vous en privez surtout pas : c''est un véritable concentré d''énergie et de vitamines",
+		"averageWeight": 160,
+		"price": 1.45,
+		"unit": "poids"
+	},
+	{
+		"id": 13,
+		"name": "Tomate",
+		"description": "La tomate colore les étals de nos marchés et nos assiettes tout au long de l''année. Trés simple é consommer, elle se préte é une infinité de préparations. Trés riche au niveau nutritionnel, elle a de véritables atouts bien-étre. Toutes ses qualités en font le légume le plus consommé en France.",
+		"averageWeight": "130",
+		"price": "2.05",
+		"unit": "poids"
+	},
+	{
+		"id": 14,
+		"name": "Abricot",
+		"description": "Apparu il y a 5 000 ans, l''abricot est aujourd''hui un fruit apprécié de tous en été. Les variétés se sont développées au fil des années, multipliant les textures et les saveurs. Cultivé dans le sud-est de la France, l''abricot apparaét aux beaux jours et garnit les étals de sa chair gorgée de soleil. Riche en nutriments essentiels, il se décline dans des recettes aussi bien sucrées que salées.",
+		"averageWeight": 45,
+		"price": 2.60,
+		"unit": "poids"
+	},
+	{
+		"id": 15,
+		"name": "Ananas",
+		"description": "Fruit exotique, l''ananas a longtemps été considéré comme un bien rare et précieux. On le trouve aujourd''hui facilement sur les étals toute l''année. Sa richesse en vitamines participe é votre tonus au quotidien",
+		"averageWeight": "1800",
+		"price": "3.80",
+		"unit": "piece"
+	},
+	{
+		"id": 16,
+		"name": "Banane",
+		"description": "",
+		"averageWeight": 150,
+		"price": 2.00,
+		"unit": "poids"
+	},
+	{
+		"id": 17,
+		"name": "Citron jaune",
+		"description": "Le citron occupe une place de choix dans nos cuisines. On l'aime pour sa chair juteuse, sa saveur qui oscille entre acide et amére, et sa belle couleur jaune doré. Fruit tonique, riche en vitamine C, le citron est aussi source de bienfaits pour votre organisme. Plein de caractére, le citron vert est un fruit tropical. Festif et convivial, il posséde un aréme caractéristique qui dynamise vos plats et cocktails. En prime, ce fruit regorge d'atouts pour votre bien-étre.",
+		"averageWeight": 120,
+		"price": 2.08,
+		"unit": "poids"
+	},
+	{
+		"id": 18,
+		"name": "Citron vert",
+		"description": "Le citron occupe une place de choix dans nos cuisines. On l'aime pour sa chair juteuse, sa saveur qui oscille entre acide et amére, et sa belle couleur jaune doré. Fruit tonique, riche en vitamine C, le citron est aussi source de bienfaits pour votre organisme. Plein de caractére, le citron vert est un fruit tropical. Festif et convivial, il posséde un aréme caractéristique qui dynamise vos plats et cocktails. En prime, ce fruit regorge d'atouts pour votre bien-étre.",
+		"averageWeight": 100,
+		"price": 2.35,
+		"unit": "poids"
+	},
+	{
+		"id": 19,
+		"name": "Clémentine",
+		"description": "Née au début du XXe siécle, la clémentine a rapidement fait sa place dans le quotidien des Franéais. Sa saveur douce et sa richesse en vitamines font de ce fruit hivernal un atout vitalité. Dégustée telle quelle ou travaillée en version sucrée ou salée, la clémentine met de l''énergie dans les assiettes !",
+		"averageWeight": 70,
+		"price": 2.00,
+		"unit": "piece"
+	},
+	{
+		"id": 20,
+		"name": "Figue",
+		"description": "C'est trop bon !",
+		"averageWeight": 50,
+		"price": 2.80,
+		"unit": "poids"
+	},
+	{
+		"id": 21,
+		"name": "Kiwi",
+		"description": "Dégusté depuis 2 000 ans en Chine, le kiwi séduit aujourd''hui le monde entier. Et éa a des poils !",
+		"averageWeight": 100,
+		"price": 0.67,
+		"unit": "piece"
+	},
+	{
+		"id": 22,
+		"name": "Mangue",
+		"description": "Délicieusement parfumée, juteuse et tendre, la mangue est un fruit charnu. Sa chair, d''un beau jaune-orangé, a un délicat goét sucré. Avec plusieurs milliers de variétés, la mangue vous offre une diversité peu commune de couleurs et de saveurs. Aliment bien-étre, elle allie plaisir gourmand et apport nutritionnel équilibré.",
+		"averageWeight": 400,
+		"price": 3.50,
+		"unit": "poids"
+	},
+	{
+		"id": 23,
+		"name": "Melon",
+		"description": "En été, le melon garnit généreusement les étals et parfume agréablement nos paniers. Rond et savoureux, il fait partie des fruits et légumes d'été préférés des Franéais. Il se consomme aujourd''hui surtout comme un fruit, mais agrémente également des préparations salées.",
+		"averageWeight": 800,
+		"price": 3.78,
+		"unit": "piece"
+	},
+	{
+		"id": 24,
+		"name": "Orange",
+		"description": "C'est parceque c'est orange !",
+		"averageWeight": 200,
+		"price": 2.87,
+		"unit": "poids"
+	},
+	{
+		"id": 25,
+		"name": "Pamplemousse",
+		"description": "Pareil que l'orange mais en moins bien",
+		"averageWeight": 400,
+		"price": 1.87,
+		"unit": "poids"
+	},
+	{
+		"id": 26,
+		"name": "Péche",
+		"description": "ca manque de peche !",
+		"averageWeight": 150,
+		"price": 2.85,
+		"unit": "poids"
+	},
+	{
+		"id": 27,
+		"name": "Poire",
+		"description": "Arrivée en France au XVIe siécle, la poire s''est rapidement imposée dans tout le pays. Disponible toute l''année, elle se décline en une dizaine de variétés qui se répartissent entre l''été et la saison d''automne-hiver. Peu calorique, elle renferme de nombreux nutriments et des fibres. Dégustez-la é la croque ou dévoilez toute sa douceur dans de nombreux desserts ou dans des recettes salées. Adoptez-la, elle ne vous veut que du bien !",
+		"averageWeight": 120,
+		"price": 2.45,
+		"unit": "poids"
+	},
+	{
+		"id": 28,
+		"name": "Pomme",
+		"description": "Pour les tartes aux pommes",
+		"averageWeight": 150,
+		"price": 1.95,
+		"unit": "poids"
+	},
+	{
+		"id": 29,
+		"name": "Prune",
+		"description": "Juteuse et désaltérante, la prune est l''alliée fraécheur de l''été ! Relativement peu calorique, elle peut se consommer sans probléme é tout moment de la journée. Les plus gourmands peuvent méme la cuisiner : quoi de meilleur qu''une tarte aux prunes ou un clafoutis ? N''hésitez pas : vous ferez le plein de vitamines et de minéraux et votre digestion s''en portera mieux.",
+		"averageWeight": 30,
+		"price": 2.62,
+		"unit": "poids"
+	}
+]

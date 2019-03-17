@@ -1,0 +1,18 @@
+[
+   {
+      "id":1,
+      "firstName":"Jean michel",
+      "lastName":"Maraicher",
+      "login":"darkvendor",
+      "password":"1234",
+      "role":"VENDEUR"
+   },
+   {
+      "id":2,
+      "firstName":"Madame",
+      "lastName":"Michu",
+      "login":"michu01",
+      "password":"1234",
+      "role":"ACHETEUR"
+   }
+]
