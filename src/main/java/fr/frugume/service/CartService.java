@@ -25,4 +25,5 @@ public interface CartService {
 
     CartDto findOne(Integer id) throws IOException;
 
+    CartDto validate(Integer id) throws  IOException;
 }

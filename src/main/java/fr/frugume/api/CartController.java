@@ -68,4 +68,16 @@ public class CartController {
             throw new IOException(e.getMessage());
         }
     }
+
+    /**Validation des paniers par le vendeur
+     *
+     */
+    @GetMapping(value = "{/validate/{id}")
+    public CartDto validateCart (@PathVariable Integer id) throws IOException {
+        try {
+            return cartService.validate(id);
+        } catch (IOException e) {
+            throw new IOException(e.getMessage());
+        }
+    }
 }

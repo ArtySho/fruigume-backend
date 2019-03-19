@@ -165,4 +165,11 @@ public class CartServiceImpl extends CachedService implements CartService {
 		return null;
 	}
 
+
+	public CartDto validate(Integer id) throws  IOException {
+		CartDto cartDto = findOne(id);
+		cartDto.setStatus("P");
+		return cartDto;
+	}
+
 }
