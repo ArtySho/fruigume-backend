@@ -19,4 +19,6 @@ public interface CartService {
      *             Erreur de lecture du fichier de données.
      */
     List<CartDto> getAll() throws IOException;
+
+    List<CartDto> getAllById(int userId) throws IOException;
 }

@@ -45,6 +45,7 @@ public class CartServiceImpl extends CachedService implements CartService {
 	 */
 	private List<CartDto> references;
 
+
 	/**
 	 * Methode de récupèration des objets referentiels.
 	 *
@@ -55,9 +56,31 @@ public class CartServiceImpl extends CachedService implements CartService {
 	public List<CartDto> getAll() throws IOException {
 		if (CollectionUtils.isEmpty(references) || areDataExpired()) {
 			references = mapReferences();
+
 			updateDataFreshness();
 		}
 		return references;
+	}
+
+	/**
+	 * Methode de récupèration des objets referentiels par id.
+	 *
+	 * @return Une liste d'objet representant un réferentiel.
+	 * @throws IOException
+	 *             Erreur de lecture du fichier.
+	 */
+
+	public List<CartDto> getAllById(int userId) throws IOException {
+
+		List<CartDto> panier = getAll();
+		List<CartDto> panierUtilisateur = new ArrayList<>();
+		for (CartDto value : panier) {
+			if(value.getUser().getId() == userId){
+				panierUtilisateur.add(value);
+			}
+		}
+		Collections.sort(panierUtilisateur);
+		return panierUtilisateur;
 	}
 
 	/**
