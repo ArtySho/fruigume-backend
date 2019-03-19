@@ -25,7 +25,13 @@ public class CartDto implements Comparable<CartDto> {
 	
 	@Override
 	public int compareTo(CartDto o) {
-		return -1;
+		if (date.before(o.getDate())){
+			return -1;
+		}
+		if (date.after(o.getDate())){
+			return 1;
+		}
+		return 0;
 	}
 
 

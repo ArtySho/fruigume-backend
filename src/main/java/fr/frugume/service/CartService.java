@@ -20,5 +20,9 @@ public interface CartService {
      */
     List<CartDto> getAll() throws IOException;
 
+
+    List<CartDto> getAllById(int userId) throws IOException;
+
     CartDto findOne(Integer id) throws IOException;
+
 }
