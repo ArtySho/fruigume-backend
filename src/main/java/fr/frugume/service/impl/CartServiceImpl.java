@@ -150,4 +150,19 @@ public class CartServiceImpl extends CachedService implements CartService {
 		return dto;
 	}
 
+	public CartDto findOne(Integer id) throws IOException{
+		try{
+			List<CartDto> cartDtos = this.getAll();
+			for(int i = 0; i < cartDtos.size(); i++){
+				CartDto cartDto = cartDtos.get(i);
+				if(cartDto.getId() == id){
+					return cartDto;
+				}
+			}
+		} catch (IOException e){
+			throw new IOException("Il n'y a aucun panier.");
+		}
+		return null;
+	}
+
 }
